@@ -67,13 +67,13 @@ public class LeaveTHEDIMDEADProcedure {
 		if (!(((entity instanceof ServerPlayerEntity) && (entity.world instanceof ServerWorld))
 				? ((ServerPlayerEntity) entity).getAdvancements()
 						.getProgress(((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-								.getAdvancement(new ResourceLocation("horrormod:find_to_special_key")))
+								.getAdvancement(new ResourceLocation("horrormod:find_to_special_keys")))
 						.isDone()
 				: false)) {
 			if ((((entity instanceof ServerPlayerEntity) && (entity.world instanceof ServerWorld))
 					? ((ServerPlayerEntity) entity).getAdvancements()
 							.getProgress(((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-									.getAdvancement(new ResourceLocation("horrormod:leavethe_deaddim")))
+									.getAdvancement(new ResourceLocation("horrormod:realnost")))
 							.isDone()
 					: false)
 					&& (entity.world.getDimensionKey()) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY,

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "horrormod:keysfor_opencraftguiexitblock"
+    },
+    "title": {
+      "translate": "advancements.find_to_special_keys.title"
+    },
+    "description": {
+      "translate": "advancements.find_to_special_keys.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "find_to_special_keys": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "horrormod:realnost"
+}
