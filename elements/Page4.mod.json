@@ -1,0 +1,242 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookbackground.png",
+          "use1Xscale": false,
+          "name": "bookbackground.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Посмотреть",
+          "onClick": {
+            "name": "OpenP4IMAGE"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Посмотреть",
+          "x": 175,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Данж 2 (Выход)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Данж 2 (Выход)",
+          "x": 177,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Это данж где вам пред-",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Это данж где вам пред-",
+          "x": 156,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-стоит найти выход!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-стоит найти выход!",
+          "x": 156,
+          "y": 99
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 157,
+          "y": 108
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Но вы не сможете поки-",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Но вы не сможете поки-",
+          "x": 156,
+          "y": 139
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-нуть это место",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-нуть это место",
+          "x": 156,
+          "y": 151
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "если",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "если",
+          "x": 236,
+          "y": 151
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "не нашли ключ!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "не нашли ключ!",
+          "x": 156,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Этот данж находится ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Этот данж находится ",
+          "x": 156,
+          "y": 109
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "только в мёртвом дре-",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "только в мёртвом дре-",
+          "x": 156,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-весном биоме",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-весном биоме",
+          "x": 156,
+          "y": 129
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Больше информации после",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Больше информации после",
+          "x": 156,
+          "y": 171
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "того, как выберитесь!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "того, как выберитесь!",
+          "x": 156,
+          "y": 181
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Удачи!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Удачи!",
+          "x": 231,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "OpenPage3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 136,
+          "y": 199
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

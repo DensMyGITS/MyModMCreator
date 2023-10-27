@@ -1,0 +1,7 @@
+{
+  "parent": "horrormod:custom/keyee",
+  "textures": {
+    "0": "horrormod:blocks/texturekeyee",
+    "particle": "horrormod:items/deathkey"
+  }
+}

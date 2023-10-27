@@ -1,0 +1,48 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:DIMBIOME1"
+      },
+      {
+        "value": "CUSTOM:STRANNIIBIOME"
+      },
+      {
+        "value": "forest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "fluidBlock": {
+      "value": "Blocks.STAINED_GLASS#0"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "CUSTOM:Pro"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "DIMPROKL Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "deathkey",
+    "portalTexture": "beacon",
+    "enablePortal": false
+  }
+}

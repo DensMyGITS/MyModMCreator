@@ -1,0 +1,213 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Мир Мёртвых",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Мир Мёртвых",
+          "x": 187,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bookbackground.png",
+          "use1Xscale": false,
+          "name": "bookbackground.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "OpenINFOPAGE2"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 264,
+          "y": 199
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Это место куда ты попадаешь",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Это место куда ты попадаешь",
+          "x": 157,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "после смерти",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "после смерти",
+          "x": 157,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ты можешь выбраться из",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ты можешь выбраться из",
+          "x": 156,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "него, но всего раз при",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "него, но всего раз при",
+          "x": 156,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "первоначальном появлении",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "первоначальном появлении",
+          "x": 155,
+          "y": 109
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Тебе сюда ещё предстоит",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Тебе сюда ещё предстоит",
+          "x": 154,
+          "y": 133
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "вернуться намеренно.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "вернуться намеренно.",
+          "x": 155,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Спросишь почему?",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Спросишь почему?",
+          "x": 157,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Или подумаешь",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Или подумаешь",
+          "x": 158,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Не обязан\"?",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "\"Не обязан\"?",
+          "x": 158,
+          "y": 183
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowforcg.png",
+          "use1Xscale": true,
+          "name": "arrowforcg.png",
+          "x": 254,
+          "y": 185
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "OPENBOOKS"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 136,
+          "y": 199
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

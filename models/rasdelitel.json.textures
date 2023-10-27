@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "redstone_block",
+        "1": "black_shulker_rasd",
+        "2": "obsidian",
+        "4": "red_shulker_box",
+        "5": "soed-effect"
+      },
+      "name": "default"
+    }
+  }
+}

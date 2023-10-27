@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "horrormod:blocks/ochisennyisvyatoislitok_ore_block",
+    "particle": "horrormod:blocks/ochisennyisvyatoislitok_ore_block"
+  }
+}

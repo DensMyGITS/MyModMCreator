@@ -1,0 +1,8 @@
+{
+  "parent": "horrormod:custom/ochistitelproklytii",
+  "textures": {
+    "all": "horrormod:blocks/ochistporok",
+    "particle": "horrormod:blocks/ochistporok",
+    "0": "horrormod:blocks/ochistporok"
+  }
+}

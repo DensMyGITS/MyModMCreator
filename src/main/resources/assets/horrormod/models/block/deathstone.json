@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "horrormod:blocks/stone_main",
+    "up": "horrormod:blocks/stone_main",
+    "north": "horrormod:blocks/stone_main",
+    "east": "horrormod:blocks/stone_main",
+    "south": "horrormod:blocks/stone_main",
+    "west": "horrormod:blocks/stone_main",
+    "particle": "horrormod:blocks/stone_main"
+  }
+}

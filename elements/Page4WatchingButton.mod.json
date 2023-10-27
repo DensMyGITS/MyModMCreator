@@ -1,0 +1,72 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "exit2.png",
+          "use1Xscale": true,
+          "name": "exit2.png",
+          "x": -244,
+          "y": -73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Вот так выглядит данж в котором находится выход из этого места",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Вот так выглядит данж в котором находится выход из этого места",
+          "x": 52,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Советую проверять коврики",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Советую проверять коврики",
+          "x": 160,
+          "y": 21
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Назад",
+          "onClick": {
+            "name": "OpenPage4"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Назад",
+          "x": 192,
+          "y": 207
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

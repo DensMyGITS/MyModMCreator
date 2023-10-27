@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "advancements.realnost.title"
+    },
+    "description": {
+      "translate": "advancements.realnost.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "realnost": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "horrormod:death_dim"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "horrormod:neydacha"
+}

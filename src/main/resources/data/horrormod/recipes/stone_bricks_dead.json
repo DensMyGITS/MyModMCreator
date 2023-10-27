@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "horrormod:deathstone"
+    },
+    "1": {
+      "item": "horrormod:deathstone"
+    },
+    "2": {
+      "item": "horrormod:deathstone"
+    },
+    "3": {
+      "item": "horrormod:deathstone"
+    }
+  },
+  "result": {
+    "item": "horrormod:death_stone_bricks",
+    "count": 4
+  }
+}

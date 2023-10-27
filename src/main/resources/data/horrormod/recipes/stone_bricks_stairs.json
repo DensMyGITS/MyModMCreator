@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "horrormod:death_stone_bricks"
+    },
+    "3": {
+      "item": "horrormod:death_stone_bricks"
+    },
+    "4": {
+      "item": "horrormod:death_stone_bricks"
+    },
+    "6": {
+      "item": "horrormod:death_stone_bricks"
+    },
+    "7": {
+      "item": "horrormod:death_stone_bricks"
+    },
+    "8": {
+      "item": "horrormod:death_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "horrormod:dead_stairs_bricks",
+    "count": 4
+  }
+}

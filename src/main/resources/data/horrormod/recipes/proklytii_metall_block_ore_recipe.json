@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horrormod:proklytii_metall_block"
+    }
+  ],
+  "result": {
+    "item": "horrormod:proklytii_metall_ingot",
+    "count": 9
+  }
+}

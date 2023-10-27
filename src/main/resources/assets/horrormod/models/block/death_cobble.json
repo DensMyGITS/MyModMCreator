@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "horrormod:blocks/deathcobble",
+    "up": "horrormod:blocks/deathcobble",
+    "north": "horrormod:blocks/deathcobble",
+    "east": "horrormod:blocks/deathcobble",
+    "south": "horrormod:blocks/deathcobble",
+    "west": "horrormod:blocks/deathcobble",
+    "particle": "horrormod:blocks/deathcobble"
+  }
+}

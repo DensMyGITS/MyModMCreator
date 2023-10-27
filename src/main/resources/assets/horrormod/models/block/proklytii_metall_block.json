@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "horrormod:blocks/prblocks",
+    "particle": "horrormod:blocks/prblocks"
+  }
+}

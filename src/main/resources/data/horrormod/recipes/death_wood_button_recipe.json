@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horrormod:death_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "horrormod:death_wood_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "ambientdead": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "horrormod:02581",
+        "stream": true
+      }
+    ]
+  },
+  "dead": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "horrormod:02581",
+        "stream": false
+      }
+    ]
+  },
+  "opendeadbook": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "horrormod:biez-nazvaniia",
+        "stream": false
+      }
+    ]
+  },
+  "russia": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "horrormod:oleg_gazmanov_-_vperjod_rossiya_53474944",
+        "stream": false
+      }
+    ]
+  },
+  "gimnsiyaniya": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "horrormod:oleg_gazmanov_-_vperjod_rossiya_53474944",
+        "stream": false
+      },
+      {
+        "name": "horrormod:quineros_ae_feat_voskhod_-_gimn_siyaniya_75061148",
+        "stream": false
+      }
+    ]
+  }
+}

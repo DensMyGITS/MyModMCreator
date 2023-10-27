@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "horrormod:block/death_dim_portal_ew"
+    },
+    "axis=x": {
+      "model": "horrormod:block/death_dim_portal_ns"
+    }
+  }
+}

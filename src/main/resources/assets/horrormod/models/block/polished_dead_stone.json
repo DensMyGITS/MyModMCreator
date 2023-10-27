@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "horrormod:blocks/polished_andesite",
+    "up": "horrormod:blocks/polished_andesite",
+    "north": "horrormod:blocks/polished_andesite",
+    "east": "horrormod:blocks/polished_andesite",
+    "south": "horrormod:blocks/polished_andesite",
+    "west": "horrormod:blocks/polished_andesite",
+    "particle": "horrormod:blocks/polished_andesite"
+  }
+}

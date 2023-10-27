@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "horrormod:key"
+    },
+    "title": {
+      "translate": "advancements.fint_to_key_exit.title"
+    },
+    "description": {
+      "translate": "advancements.fint_to_key_exit.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "fint_to_key_exit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "horrormod:key",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "horrormod:welcome_to_mm"
+}

@@ -1,0 +1,237 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Проклятый мир",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Проклятый мир",
+          "x": 188,
+          "y": 48
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pr_page.png",
+          "use1Xscale": false,
+          "name": "pr_page.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 264,
+          "y": 199
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Вы попали в проклятый мир",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Вы попали в проклятый мир",
+          "x": 157,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Выбраться отсюда достаточно легко",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Выбраться отсюда достаточно легко",
+          "x": 157,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Его легко заметить - сфера в небе с лучом",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Его легко заметить - сфера в небе с лучом",
+          "x": 156,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Так что я даже не буду вставлять сюда картинку",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Так что я даже не буду вставлять сюда картинку",
+          "x": 157,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "А так же в этом мире у вас проклялись все вещи мертвеца",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "А так же в этом мире у вас проклялись все вещи мертвеца",
+          "x": 155,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Вам нужно их очистить от проклятий и нормализовать",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Вам нужно их очистить от проклятий и нормализовать",
+          "x": 155,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "При помощи специальных блоков",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "При помощи специальных блоков",
+          "x": 155,
+          "y": 106
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowforcg.png",
+          "use1Xscale": true,
+          "name": "arrowforcg.png",
+          "x": 254,
+          "y": 185
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "OPENBOOKS"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 136,
+          "y": 199
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Посмотреть",
+          "onClick": {
+            "name": "OpenMoreInfoImage"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Посмотреть",
+          "x": 176,
+          "y": 165
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Они находятся в данже в тёмном лесу",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Они находятся в данже в тёмном лесу",
+          "x": 156,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-Соединитель и Разделитель",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "-Соединитель и Разделитель",
+          "x": 155,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "в обычном мире",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "в обычном мире",
+          "x": 156,
+          "y": 131
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Данж в Т.Л",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Данж в Т.Л",
+          "x": 188,
+          "y": 155
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

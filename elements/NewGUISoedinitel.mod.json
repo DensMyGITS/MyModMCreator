@@ -1,0 +1,148 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 186,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stick.png",
+          "use1Xscale": true,
+          "name": "stick.png",
+          "x": 191,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Соединить",
+          "onClick": {
+            "name": "ProcGUISoed"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Соединить",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nostsword.png",
+          "use1Xscale": true,
+          "name": "nostsword.png",
+          "x": 223,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nostaxe.png",
+          "use1Xscale": true,
+          "name": "nostaxe.png",
+          "x": 231,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nostpickaxe.png",
+          "use1Xscale": true,
+          "name": "nostpickaxe.png",
+          "x": 223,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nostshovel.png",
+          "use1Xscale": true,
+          "name": "nostshovel.png",
+          "x": 231,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "nosthoe.png",
+          "use1Xscale": true,
+          "name": "nosthoe.png",
+          "x": 227,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Соединитель (Нормализатор)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Соединитель (Нормализатор)",
+          "x": 150,
+          "y": 44
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

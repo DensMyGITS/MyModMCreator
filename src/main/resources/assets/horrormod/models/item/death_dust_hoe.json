@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "horrormod:items/death_dust_hoe"
+  }
+}

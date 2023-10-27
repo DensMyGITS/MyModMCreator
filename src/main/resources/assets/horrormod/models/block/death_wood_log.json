@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "horrormod:blocks/deathwood_log_top",
+    "up": "horrormod:blocks/deathwood_log_top",
+    "north": "horrormod:blocks/deathwood_log_side",
+    "east": "horrormod:blocks/deathwood_log_side",
+    "south": "horrormod:blocks/deathwood_log_side",
+    "west": "horrormod:blocks/deathwood_log_side",
+    "particle": "horrormod:blocks/deathwood_log_top"
+  }
+}

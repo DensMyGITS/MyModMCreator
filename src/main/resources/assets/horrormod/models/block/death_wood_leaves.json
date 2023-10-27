@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "horrormod:blocks/deathwood_leaves",
+    "particle": "horrormod:blocks/deathwood_leaves"
+  }
+}

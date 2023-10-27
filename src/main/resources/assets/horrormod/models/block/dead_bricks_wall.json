@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "horrormod:blocks/stone_bricks",
+    "particle": "horrormod:blocks/stone_bricks"
+  }
+}

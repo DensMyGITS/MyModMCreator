@@ -1,0 +1,3313 @@
+{
+  "mod_elements": [
+    {
+      "name": "Death_DustDust",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_dust"
+    },
+    {
+      "name": "Death_DustOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_ore"
+    },
+    {
+      "name": "Death_DustBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_block"
+    },
+    {
+      "name": "Death_DustOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_ore_block_recipe"
+    },
+    {
+      "name": "Death_DustBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_block_ore_recipe"
+    },
+    {
+      "name": "Death_DustPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_pickaxe"
+    },
+    {
+      "name": "Death_DustAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_axe"
+    },
+    {
+      "name": "Death_DustSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_sword"
+    },
+    {
+      "name": "Death_DustShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_shovel"
+    },
+    {
+      "name": "Death_DustHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_hoe"
+    },
+    {
+      "name": "Death_DustArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DeathSTR",
+      "type": "structure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_str"
+    },
+    {
+      "name": "Deathblock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathblock"
+    },
+    {
+      "name": "DeathCobble",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_cobble"
+    },
+    {
+      "name": "Deathstone",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathstone"
+    },
+    {
+      "name": "Death",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death"
+    },
+    {
+      "name": "DeathDIM",
+      "type": "dimension",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dim",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "IfdeathonOVERWORLDTORESPAWNINTHEDEATHDIM",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifdeathon_overworldtorespawninthedeathdim",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathWOODWood",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_wood"
+    },
+    {
+      "name": "DeathWOODLog",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_log"
+    },
+    {
+      "name": "DeathWOODPlanks",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_planks"
+    },
+    {
+      "name": "DeathWOODLeaves",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_leaves"
+    },
+    {
+      "name": "DeathWOODStairs",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_stairs"
+    },
+    {
+      "name": "DeathWOODSlab",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_slab"
+    },
+    {
+      "name": "DeathWOODFence",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_fence"
+    },
+    {
+      "name": "DeathWOODFenceGate",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_fence_gate"
+    },
+    {
+      "name": "DeathWOODPressurePlate",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_pressure_plate"
+    },
+    {
+      "name": "DeathWOODButton",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_button"
+    },
+    {
+      "name": "DeathWOODItemsTag",
+      "type": "tag",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_items_tag"
+    },
+    {
+      "name": "DeathWOODWoodRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_wood_recipe"
+    },
+    {
+      "name": "DeathWOODPlanksRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_planks_recipe"
+    },
+    {
+      "name": "DeathWOODStairsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_stairs_recipe"
+    },
+    {
+      "name": "DeathWOODSlabRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_slab_recipe"
+    },
+    {
+      "name": "DeathWOODFenceRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_fence_recipe"
+    },
+    {
+      "name": "DeathWOODFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_fence_gate_recipe"
+    },
+    {
+      "name": "DeathWOODPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_pressure_plate_recipe"
+    },
+    {
+      "name": "DeathWOODButtonRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_button_recipe"
+    },
+    {
+      "name": "DeathWOODStickRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wood_stick_recipe"
+    },
+    {
+      "name": "Key",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key"
+    },
+    {
+      "name": "Exit",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit"
+    },
+    {
+      "name": "ExitNaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathStoneBricks",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_stone_bricks"
+    },
+    {
+      "name": "PolishedDeadStone",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_dead_stone"
+    },
+    {
+      "name": "CrackedDeadStoneBricks",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_dead_stone_bricks"
+    },
+    {
+      "name": "DeadStairsBricks",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_stairs_bricks"
+    },
+    {
+      "name": "DeadPolishedStairs",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_polished_stairs"
+    },
+    {
+      "name": "DeadBone",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_bone"
+    },
+    {
+      "name": "DeadStoneBricksSlab",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_stone_bricks_slab"
+    },
+    {
+      "name": "DeadBricksWall",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_bricks_wall"
+    },
+    {
+      "name": "ExitStructuredead",
+      "type": "structure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_structuredead"
+    },
+    {
+      "name": "StoneBricksDead",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_bricks_dead"
+    },
+    {
+      "name": "StoneBricksStairs",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_bricks_stairs"
+    },
+    {
+      "name": "DeadIngot",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_ingot"
+    },
+    {
+      "name": "StoneBricksSlabDEAD",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_bricks_slab_dead"
+    },
+    {
+      "name": "SmeltindDeadIngot",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltind_dead_ingot"
+    },
+    {
+      "name": "StoneBricksDeadWall",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_bricks_dead_wall"
+    },
+    {
+      "name": "SmeltingFastDeadIngot",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting_fast_dead_ingot"
+    },
+    {
+      "name": "CuttingsDeadWallsStoneBricks",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuttings_dead_walls_stone_bricks",
+      "path": "~/StoneCutterRecipes"
+    },
+    {
+      "name": "CuttingSBDslab",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutting_sb_dslab",
+      "path": "~/StoneCutterRecipes"
+    },
+    {
+      "name": "CuttingSBDstairs",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutting_sb_dstairs",
+      "path": "~/StoneCutterRecipes"
+    },
+    {
+      "name": "CuttingSBDead",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutting_sb_dead",
+      "path": "~/StoneCutterRecipes"
+    },
+    {
+      "name": "SmeltingStoneBricksToCracked",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting_stone_bricks_to_cracked"
+    },
+    {
+      "name": "PolishedBricksStoneDead",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bricks_stone_dead"
+    },
+    {
+      "name": "Dirt",
+      "type": "tag",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt"
+    },
+    {
+      "name": "DeathDIMIesliIghrokVkhoditVIzmierieniie",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dim_iesli_ighrok_vkhodit_v_izmierieniie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathDIMIesliIghrokPokidaietIzmierieniie",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dim_iesli_ighrok_pokidaiet_izmierieniie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NotEnterProcToEnd",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_enter_proc_to_end",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NotEnterProcedures"
+    },
+    {
+      "name": "KeysforOPENCRAFTGUIEXITBLOCK",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keysfor_opencraftguiexitblock"
+    },
+    {
+      "name": "DeadWoodsBIOME",
+      "type": "biome",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_woods_biome"
+    },
+    {
+      "name": "DeadBookGUIDE",
+      "type": "item",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_book_guide"
+    },
+    {
+      "name": "OpenBOOKDeads",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_book_deads",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GUIBOOKS",
+      "type": "gui",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guibooks"
+    },
+    {
+      "name": "OPENBOOKS",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openbooks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeadMod",
+      "type": "tab",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_mod"
+    },
+    {
+      "name": "LeaveTHEDIMDEAD",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_thedimdead",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tools",
+      "type": "tab",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tools"
+    },
+    {
+      "name": "Items",
+      "type": "tab",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items"
+    },
+    {
+      "name": "ArmorR",
+      "type": "gui",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_r"
+    },
+    {
+      "name": "OpenArmor",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_armor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiveAchSKL",
+      "type": "achievement",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_ach_skl"
+    },
+    {
+      "name": "SKL",
+      "type": "achievement",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skl"
+    },
+    {
+      "name": "CobbleToStone",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_to_stone",
+      "path": "~/FurnAndBlastRecipesDeadStone"
+    },
+    {
+      "name": "CobbleToStone2",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_to_stone_2",
+      "path": "~/FurnAndBlastRecipesDeadStone"
+    },
+    {
+      "name": "StoneBricksToCracked",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_bricks_to_cracked",
+      "path": "~/FurnAndBlastRecipesDeadStone"
+    },
+    {
+      "name": "DeathDustArmorSobytiieTaktovKirasy",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_armor_sobytiie_taktov_kirasy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathDustArmorSobytiieTaktovShliema",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_armor_sobytiie_taktov_shliema",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathDustArmorSobytiieTaktovBotinkov",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_armor_sobytiie_taktov_botinkov",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathDustSwordPriNazhatiiPravoiKnopkoiMyshi",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dust_sword_pri_nazhatii_pravoi_knopkoi_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NewDangeuon",
+      "type": "structure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_dangeuon"
+    },
+    {
+      "name": "InfoForDeadDIM",
+      "type": "gui",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "info_for_dead_dim"
+    },
+    {
+      "name": "InfoForDeadDIMpage2",
+      "type": "gui",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "info_for_dead_di_mpage_2"
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Page3",
+      "type": "gui",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_3"
+    },
+    {
+      "name": "ChestfornewstrUCT",
+      "type": "loottable",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestfornewstr_uct"
+    },
+    {
+      "name": "AKI",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aki",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AutoKeepInventory"
+    },
+    {
+      "name": "CloseDeadDim",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close_dead_dim",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeadStoneBrickPolishedSlab",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_stone_brick_polished_slab"
+    },
+    {
+      "name": "DeadLamp",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_lamp"
+    },
+    {
+      "name": "TestOleg",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_oleg",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Page3WatchingButton",
+      "type": "gui",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_3_watching_button"
+    },
+    {
+      "name": "Page4",
+      "type": "gui",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_4"
+    },
+    {
+      "name": "Page4WatchingButton",
+      "type": "gui",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_4_watching_button"
+    },
+    {
+      "name": "TestWolrd",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_wolrd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftTable",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_table"
+    },
+    {
+      "name": "InfoDeadTools",
+      "type": "gui",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "info_dead_tools"
+    },
+    {
+      "name": "DarkCraftGUI",
+      "type": "gui",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_craft_gui"
+    },
+    {
+      "name": "CraftTableObnovitTakt",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_table_obnovit_takt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeadSkelet",
+      "type": "livingentity",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_skelet"
+    },
+    {
+      "name": "FlyingMob",
+      "type": "livingentity",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_mob"
+    },
+    {
+      "name": "RecipePROKLYTIITable",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_proklytii_table"
+    },
+    {
+      "name": "ArmorINFO",
+      "type": "gui",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_info"
+    },
+    {
+      "name": "D",
+      "type": "gui",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d"
+    },
+    {
+      "name": "OpenINFODEADDIM",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_infodeaddim",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenINFOPAGE2",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_infopage_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenPage3",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_page_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenP3IMAGE",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_p_3_image",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenPage4",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_page_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenP4IMAGE",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_p_4_image",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenArINFO",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_ar_info",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PilnyiPoroshok",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pilnyi_poroshok"
+    },
+    {
+      "name": "CRAFT",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft"
+    },
+    {
+      "name": "MoreINFO",
+      "type": "gui",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_info"
+    },
+    {
+      "name": "MoreINFOLookBut",
+      "type": "gui",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_info_look_but"
+    },
+    {
+      "name": "OpenMOREINFO",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_moreinfo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenMoreInfoImage",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_more_info_image",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Posle1Pobegya",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "posle_1_pobegya",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trofei",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trofei"
+    },
+    {
+      "name": "NewDangeuonDopolnitielnoieUsloviieGienieratsii",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_dangeuon_dopolnitielnoie_usloviie_gienieratsii",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trofei2",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trofei_2"
+    },
+    {
+      "name": "ProklytiiMetallIngot",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_metall_ingot"
+    },
+    {
+      "name": "ProklytiiMetallBlock",
+      "type": "block",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_metall_block"
+    },
+    {
+      "name": "ProklytiiMetallOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_metall_ore_block_recipe"
+    },
+    {
+      "name": "ProklytiiMetallBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_metall_block_ore_recipe"
+    },
+    {
+      "name": "ProklytiiMetallOreSmelting",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_metall_ore_smelting"
+    },
+    {
+      "name": "Ochistitel",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochistitel"
+    },
+    {
+      "name": "OchistGUI",
+      "type": "gui",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochist_gui"
+    },
+    {
+      "name": "Test12",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_12",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SvyatayaVODA",
+      "type": "fluid",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svyataya_voda",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "OchisennyiSvyatoiSlitokIngot",
+      "type": "item",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_svyatoi_slitok_ingot"
+    },
+    {
+      "name": "OchisennyiSvyatoiSlitokBlock",
+      "type": "block",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_svyatoi_slitok_block"
+    },
+    {
+      "name": "OchisennyiSvyatoiSlitokOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_svyatoi_slitok_ore_block_recipe"
+    },
+    {
+      "name": "OchisennyiSvyatoiSlitokBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_svyatoi_slitok_block_ore_recipe"
+    },
+    {
+      "name": "ZidkayaSmert",
+      "type": "fluid",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zidkaya_smert",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "ZidSmert",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zid_smert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OchisennyiArmor",
+      "type": "armor",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Pro",
+      "type": "particle",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pro"
+    },
+    {
+      "name": "ProkeyKoghdaPriedmietVInvientarie",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prokey_koghda_priedmiet_v_invientarie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DIMBIOME1",
+      "type": "biome",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimbiome_1",
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "DIMPROKL",
+      "type": "dimension",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimprokl",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "OchisennyiArmorSobytiieTaktovShliema",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_armor_sobytiie_taktov_shliema",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OchisennyiArmorSobytiieTaktovKirasy",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_armor_sobytiie_taktov_kirasy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OchisennyiArmorSobytiieTaktovPonozhiei",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_armor_sobytiie_taktov_ponozhiei",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OchisennyiArmorSobytiieTaktovBotinkov",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_armor_sobytiie_taktov_botinkov",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OchisennyiPickaxe",
+      "type": "tool",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_pickaxe"
+    },
+    {
+      "name": "OchisennyiAxe",
+      "type": "tool",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_axe"
+    },
+    {
+      "name": "OchisennyiSword",
+      "type": "tool",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_sword"
+    },
+    {
+      "name": "OchisennyiShovel",
+      "type": "tool",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_shovel"
+    },
+    {
+      "name": "OchisennyiHoe",
+      "type": "tool",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_hoe"
+    },
+    {
+      "name": "ProklytiiPickaxe",
+      "type": "tool",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_pickaxe"
+    },
+    {
+      "name": "ProklytiiAxe",
+      "type": "tool",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_axe"
+    },
+    {
+      "name": "ProklytiiSword",
+      "type": "tool",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_sword"
+    },
+    {
+      "name": "ProklytiiShovel",
+      "type": "tool",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_shovel"
+    },
+    {
+      "name": "ProklytiiHoe",
+      "type": "tool",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytii_hoe"
+    },
+    {
+      "name": "TestOchist2",
+      "type": "procedure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_ochist_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pobeg1INTHIESURFACE",
+      "type": "procedure",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pobeg_1_inthiesurface",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathDIMMozhnoSdielatPortal",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_dim_mozhno_sdielat_portal",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SvytoiFestral",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svytoi_festral",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProklytTEST",
+      "type": "procedure",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklyt_test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProklytayaArmor",
+      "type": "armor",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytaya_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "STRANNIIBIOME",
+      "type": "biome",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stranniibiome",
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "TESTNVH",
+      "type": "procedure",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testnvh",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExitblockwithKEY1",
+      "type": "block",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitblockwith_key_1",
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "KEY2",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_2",
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "KEY3",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_3",
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "KEY4",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_4",
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "KEY5",
+      "type": "block",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_5",
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "ExitblockwithKEY1NaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exitblockwith_key_1_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "KEY2NaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_2_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "KEY3NaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_3_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "KEY4NaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_4_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "KEY5NaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_5_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/exitblockanimation"
+    },
+    {
+      "name": "POMEXI",
+      "type": "overlay",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pomexi"
+    },
+    {
+      "name": "POMEXIOtobrazhatOvierlieiVIghrie",
+      "type": "procedure",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pomexi_otobrazhat_ovierliei_v_ighrie",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HELMETPROKLOtobrazhatOvierlieiVIghrie",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmetprokl_otobrazhat_ovierliei_v_ighrie",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HELMETPROKL",
+      "type": "overlay",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmetprokl"
+    },
+    {
+      "name": "INFOPROKLMIR",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infoproklmir",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "OpenD",
+      "type": "procedure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_d",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoDeath",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "Osvoboditel",
+      "type": "block",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osvoboditel",
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "OsvobGUI",
+      "type": "gui",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osvob_gui",
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "OsvobProc",
+      "type": "procedure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osvob_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "SphereOsvoboditel",
+      "type": "structure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphere_osvoboditel",
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "Guibuttonsprocedures",
+      "type": "procedure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guibuttonsprocedures",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "OchistGUINEW",
+      "type": "gui",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochist_guinew",
+      "path": "~/ochistitel"
+    },
+    {
+      "name": "OchistGUIProcedNEW",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochist_gui_proced_new",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ochistitel"
+    },
+    {
+      "name": "NoSnyat",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_snyat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NewDIM"
+    },
+    {
+      "name": "Ochisennyi12Pickaxe",
+      "type": "tool",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_12_pickaxe",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Ochisennyi12Axe",
+      "type": "tool",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_12_axe",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Ochisennyi12Sword",
+      "type": "tool",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_12_sword",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Ochisennyi12Shovel",
+      "type": "tool",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_12_shovel",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Ochisennyi12Hoe",
+      "type": "tool",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ochisennyi_12_hoe",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Partsword",
+      "type": "item",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partsword",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Partaxe",
+      "type": "item",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partaxe",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Partpickaxe",
+      "type": "item",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partpickaxe",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Parthoe",
+      "type": "item",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parthoe",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Partshovel",
+      "type": "item",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partshovel",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "NewGUISoedinitel",
+      "type": "gui",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_gui_soedinitel",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "ProcGUISoed",
+      "type": "procedure",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_gui_soed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Soedinitel",
+      "type": "block",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soedinitel",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Rasdelitel",
+      "type": "block",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasdelitel",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "RasdelitelGUI",
+      "type": "gui",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasdelitel_gui",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "RasdelProcedutre",
+      "type": "procedure",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rasdel_procedutre",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "Svyatbone",
+      "type": "item",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svyatbone",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "PRdimINFO",
+      "type": "gui",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_rdim_info"
+    },
+    {
+      "name": "InstallMod",
+      "type": "achievement",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "install_mod",
+      "path": "~/achivments"
+    },
+    {
+      "name": "WelcomeToMM",
+      "type": "achievement",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_mm",
+      "path": "~/achivments"
+    },
+    {
+      "name": "FintToKeyExit",
+      "type": "achievement",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fint_to_key_exit",
+      "path": "~/achivments"
+    },
+    {
+      "name": "FintToExit",
+      "type": "achievement",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fint_to_exit",
+      "path": "~/achivments"
+    },
+    {
+      "name": "Nedostatok",
+      "type": "achievement",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nedostatok",
+      "path": "~/achivments"
+    },
+    {
+      "name": "Proklytie",
+      "type": "achievement",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proklytie",
+      "path": "~/achivments"
+    },
+    {
+      "name": "Exp20",
+      "type": "achievement",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exp_20",
+      "path": "~/achivments"
+    },
+    {
+      "name": "LeavethePRdim",
+      "type": "achievement",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leavethe_p_rdim",
+      "path": "~/achivments"
+    },
+    {
+      "name": "GivePickUpToSvyatWater",
+      "type": "achievement",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_pick_up_to_svyat_water",
+      "path": "~/achivments"
+    },
+    {
+      "name": "Neydacha",
+      "type": "achievement",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neydacha",
+      "path": "~/achivments"
+    },
+    {
+      "name": "Realnost",
+      "type": "achievement",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "realnost",
+      "path": "~/achivments"
+    },
+    {
+      "name": "GiveSoed",
+      "type": "achievement",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_soed",
+      "path": "~/fortexturestoolsochist"
+    },
+    {
+      "name": "GiveRasd",
+      "type": "achievement",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_rasd",
+      "path": "~/fortexturestoolsochist"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ambientdead",
+      "files": [
+        "02581"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "dead",
+      "files": [
+        "02581"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "opendeadbook",
+      "files": [
+        "biez-nazvaniia"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "russia",
+      "files": [
+        "oleg_gazmanov_-_vperjod_rossiya_53474944"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gimnsiyaniya",
+      "files": [
+        "oleg_gazmanov_-_vperjod_rossiya_53474944",
+        "quineros_ae_feat_voskhod_-_gimn_siyaniya_75061148"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "block.horrormod.dead_polished_stairs": "Ступеньки из мёртвого полированного камня",
+      "block.horrormod.zidkaya_smert": "Святая вода",
+      "subtitles.dead": "",
+      "item.horrormod.death_dust_armor_leggings": "Штаны мертвеца",
+      "item.horrormod.ochisennyi_12_shovel": "Очищенная лопата",
+      "block.horrormod.dead_lamp": "Лампа Мертвеца",
+      "block.horrormod.death_wood_wood": "Мёртвое дерево",
+      "advancements.give_rasd.title": "Give Rasd",
+      "advancements.proklytie.title": "Proklytie",
+      "item.horrormod.death_dust_armor_chestplate": "Нагрудник мертвеца",
+      "advancements.give_soed.descr": "Найдите соединитель",
+      "item.horrormod.proklytii_pickaxe": "Проклятая кирка",
+      "advancements.nedostatok.title": "Nedostatok",
+      "item.horrormod.proklytaya_armor_chestplate": "Проклятый нагрудник",
+      "item.horrormod.ochisennyi_armor_chestplate": "Очищенный нагрудник",
+      "advancements.neydacha.descr": "Иди собирай опыт",
+      "block.horrormod.dead_stone_bricks_slab": "Плита из мёртвых каменных кирпичей",
+      "advancements.fint_to_exit.title": "Find To Exit",
+      "item.horrormod.proklytii_shovel": "Проклятая лопата",
+      "advancements.exp_20.descr": "Достигните 20 уровня",
+      "advancements.welcome_to_mm.title": "Заточение",
+      "block.horrormod.craft_table": "Проклятый верстак",
+      "advancements.fint_to_key_exit.descr": "Найти ключ от выход",
+      "item.horrormod.ochisennyi_armor_leggings": "Очищенные поножи",
+      "block.horrormod.svyataya_voda": "Святая вода",
+      "block.horrormod.death_stone_bricks": "Мёртвые каменные кирпичи",
+      "block.horrormod.ochisennyi_svyatoi_slitok_block": "Очищенный блок",
+      "block.horrormod.trofei": "Трофей за побег  [1]",
+      "item.horrormod.dead_ingot": "Мёртвый слиток",
+      "item.horrormod.dead_bone": "Кость Мертвеца",
+      "block.horrormod.death_wood_fence_gate": "Калита из мёртвых досок",
+      "advancements.give_pick_up_to_svyat_water.title": "Give Pick Up To Svyat Water",
+      "item.horrormod.ochisennyi_shovel": "Очищенная лопата",
+      "subtitles.gimnsiyaniya": "",
+      "block.horrormod.trofei_2": "Трофей за побег [2]",
+      "item.horrormod.death_dust_axe": "Топор мертвеца",
+      "item.horrormod.ochisennyi_12_axe": "Очищенные от проклятий топор",
+      "block.horrormod.death_wood_stairs": "Ступеньки из мёртвых досок",
+      "advancements.skl.title": "СКЛЕИВАНИЕ",
+      "itemGroup.tabtools": "Инструменты Мертвеца",
+      "item.horrormod.ochisennyi_12_sword": "Очищенная от проклятий лопата",
+      "block.horrormod.soedinitel": "Soedinitel",
+      "advancements.skl.descr": "Склейте части кольца",
+      "block.horrormod.death_wood_button": "Кнопка из мёртвых досок",
+      "item.horrormod.ochisennyi_12_hoe": "Очищенная от проклятий мотыга",
+      "item.horrormod.dimprokl": "",
+      "item.horrormod.svyatbone": "Святая кость",
+      "block.horrormod.death_wood_slab": "Плита из мёртвых досок",
+      "advancements.install_mod.descr": "Спасибо что скачали мой мод \u003d)",
+      "block.horrormod.death_dust_block": "Мёртвый блок",
+      "item.horrormod.flying_mob_spawn_egg": "Летающий моб из Мира Мёртвых",
+      "subtitles.russia": "",
+      "item.horrormod.svyataya_voda_bucket": "Ведро со святой водой",
+      "advancements.exp_20.title": "20 опыта",
+      "item.horrormod.ochisennyi_sword": "Проклятый меч",
+      "advancements.neydacha.title": "Неудача...",
+      "item.horrormod.proklytaya_armor_helmet": "Проклятый шлем",
+      "block.horrormod.polished_dead_stone": "Полированный мёртвый камень",
+      "item.horrormod.dead_book_guide": "Книга Мертвеца",
+      "item.horrormod.ochisennyi_12_pickaxe": "Очищенная от проклятий кирка",
+      "item.horrormod.proklytii_hoe": "Проклятый мотыга",
+      "advancements.fint_to_key_exit.title": "Ключ найден!",
+      "item.horrormod.keysfor_opencraftguiexitblock": "Специальный ключ",
+      "advancements.leavethe_p_rdim.title": "Освобождение",
+      "advancements.realnost.descr": "Выберитесь в реальный мир",
+      "biome.horrormod.death": "Мёртвый",
+      "item.horrormod.death_dim": "",
+      "item.horrormod.death_dust_hoe": "Мотыга Мертвеца",
+      "item.horrormod.proklytii_axe": "Проклятый топор",
+      "item.horrormod.key": "Ключ от выхода",
+      "item.horrormod.ochisennyi_axe": "Очищенный от проклятий топор",
+      "item.horrormod.death_dust_pickaxe": "Кирка Мертвеца",
+      "biome.horrormod.dead_woods_biome": "Мёртвый Древесный биом",
+      "item.horrormod.pilnyi_poroshok": "Проклятый порошок",
+      "item.horrormod.death_dust_dust": "Проклятая пыль",
+      "entity.horrormod.flying_mob": "Летающий моб из Мира Мёртвых",
+      "block.horrormod.dead_bricks_wall": "Стена из мёртвых каменных кирпичей",
+      "fluid.horrormod.svyataya_voda": "Святая вода",
+      "item.horrormod.partsword": "Часть меча",
+      "advancements.proklytie.descr": "Попадите в Проклятый мир (Мир Проклятых)",
+      "block.horrormod.osvoboditel": "Освободитель",
+      "block.horrormod.ochistitel": "Очиститель",
+      "block.horrormod.death_wood_planks": "Мёртвые доски",
+      "block.horrormod.death_wood_log": "Мёртвое бревно",
+      "item.horrormod.ochisennyi_pickaxe": "Очищенная кирка",
+      "item.horrormod.proklytaya_armor_leggings": "Проклятые поножи",
+      "block.horrormod.key_3": "",
+      "block.horrormod.key_4": "",
+      "entity.horrormod.dead_skelet": "Мёртвый скелет",
+      "block.horrormod.key_5": "",
+      "item.horrormod.partpickaxe": "Часть кирки",
+      "advancements.give_rasd.descr": "Найдите Разделитель",
+      "itemGroup.tabdead_mod": "Dead Mod",
+      "block.horrormod.key_2": "",
+      "item.horrormod.partshovel": "Часть лопаты",
+      "item.horrormod.dead_skelet_spawn_egg": "Яйцо Спавна Мёртвого Скелета",
+      "block.horrormod.dead_stairs_bricks": "Ступеньки из мёртвых каменных кирпичей",
+      "advancements.give_ach_skl.descr": "Получите Склеиватель",
+      "item.horrormod.proklytii_sword": "Проклятый меч",
+      "fluid.horrormod.zidkaya_smert": "Святая вода",
+      "advancements.install_mod.title": "Install Mod",
+      "item.horrormod.death_dust_shovel": "Лопата мертвеца",
+      "block.horrormod.rasdelitel": "Rasdelitel",
+      "advancements.leavethe_p_rdim.descr": "Выберитесь из Проклятого Мира",
+      "advancements.realnost.title": "Realnost",
+      "item.horrormod.death_dust_armor_helmet": "Шлем Мертвеца",
+      "item.horrormod.proklytii_metall_ingot": "Проклятый металл",
+      "advancements.give_pick_up_to_svyat_water.descr": "Наберите святой воды",
+      "item.horrormod.death_dust_armor_boots": "Ботинки Мертвеца",
+      "biome.horrormod.stranniibiome": "Странный биом",
+      "item.horrormod.zidkaya_smert_bucket": "Ведро со святой водой",
+      "item.horrormod.ochisennyi_svyatoi_slitok_ingot": "Очищенный святой слиток",
+      "block.horrormod.death_cobble": "Мёртвый булыжник",
+      "itemGroup.tabitems": "Предметы Мертвеца",
+      "biome.horrormod.dimbiome_1": "",
+      "block.horrormod.death_dust_ore": "Мёртвая руда",
+      "block.horrormod.deathstone": "Мёртвый камень",
+      "item.horrormod.ochisennyi_hoe": "Ochisennyi Hoe",
+      "item.horrormod.partaxe": "Часть топор",
+      "subtitles.ambientdead": "",
+      "block.horrormod.exit": "Выход из Мира Мёртвых",
+      "item.horrormod.death_dust_sword": "Меч мертвеца",
+      "block.horrormod.death_wood_leaves": "Мёртвые листья ",
+      "subtitles.opendeadbook": "",
+      "advancements.nedostatok.descr": "Не хватило опыта чтобы выбраться",
+      "advancements.give_soed.title": "Give Soed",
+      "item.horrormod.proklytaya_armor_boots": "Проклятые сампоги",
+      "block.horrormod.death_wood_pressure_plate": "Нажимная плита из мёртвых досок",
+      "block.horrormod.dead_stone_brick_polished_slab": "Полированная каменная плита из мёртвого камня",
+      "advancements.welcome_to_mm.descr": "Этот игрок был заточён в мире Мёртвых на время",
+      "item.horrormod.parthoe": "Часть мотыги",
+      "advancements.give_ach_skl.title": "Получить Склеиватель",
+      "item.horrormod.ochisennyi_armor_helmet": "Очищенный шлем",
+      "advancements.fint_to_exit.descr": "Найти выход",
+      "item.horrormod.ochisennyi_armor_boots": "Очищенные ботинки",
+      "block.horrormod.death_wood_fence": "Забор из мёртвых досок",
+      "block.horrormod.deathblock": "Мёртвая земля",
+      "block.horrormod.cracked_dead_stone_bricks": "Потресковавшиеся мёртвые каменные кирпичи",
+      "block.horrormod.proklytii_metall_block": "Блок из проклятого металла",
+      "block.horrormod.exitblockwith_key_1": ""
+    },
+    "en_us": {
+      "block.horrormod.dead_polished_stairs": "Dead Polished Stairs",
+      "block.horrormod.zidkaya_smert": "Святая вода",
+      "subtitles.dead": "",
+      "item.horrormod.death_dust_armor_leggings": "Death_Dust Leggings",
+      "item.horrormod.ochisennyi_12_shovel": "Ochisennyi12 Shovel",
+      "block.horrormod.dead_lamp": "Dead Lamp",
+      "block.horrormod.death_wood_wood": "DeathWOOD Wood",
+      "advancements.give_rasd.title": "Give Rasd",
+      "item.horrormod.death_dust_armor_chestplate": "Death_Dust Chestplate",
+      "advancements.proklytie.title": "Proklytie",
+      "advancements.give_soed.descr": "Найдите соединитель",
+      "item.horrormod.proklytii_pickaxe": "Proklytii Pickaxe",
+      "advancements.nedostatok.title": "Nedostatok",
+      "item.horrormod.proklytaya_armor_chestplate": "Проклятый нагрудник",
+      "item.horrormod.ochisennyi_armor_chestplate": "Ochisennyi Chestplate",
+      "advancements.neydacha.descr": "Иди собирай опыт",
+      "block.horrormod.dead_stone_bricks_slab": "Dead Stone Bricks Slab",
+      "advancements.fint_to_exit.title": "Find To Exit",
+      "item.horrormod.proklytii_shovel": "Proklytii Shovel",
+      "advancements.exp_20.descr": "Достигните 20 уровня",
+      "advancements.welcome_to_mm.title": "Заточение",
+      "block.horrormod.craft_table": "Craft Table",
+      "advancements.fint_to_key_exit.descr": "Найти ключ от выход",
+      "item.horrormod.ochisennyi_armor_leggings": "Ochisennyi Leggings",
+      "block.horrormod.svyataya_voda": "Святая вода",
+      "block.horrormod.death_stone_bricks": "Dead Stone Bricks",
+      "block.horrormod.ochisennyi_svyatoi_slitok_block": "Block of OchisennyiSvyatoiSlitok",
+      "block.horrormod.trofei": "Trofei",
+      "item.horrormod.dead_ingot": "Dead Ingot",
+      "item.horrormod.dead_bone": "Dead Bone",
+      "block.horrormod.death_wood_fence_gate": "DeathWOOD Fence Gate",
+      "advancements.give_pick_up_to_svyat_water.title": "Give Pick Up To Svyat Water",
+      "item.horrormod.ochisennyi_shovel": "Ochisennyi Shovel",
+      "subtitles.gimnsiyaniya": "",
+      "block.horrormod.trofei_2": "Trofei",
+      "item.horrormod.death_dust_axe": "Death_Dust Axe",
+      "item.horrormod.ochisennyi_12_axe": "Ochisennyi12 Axe",
+      "block.horrormod.death_wood_stairs": "DeathWOOD Stairs",
+      "advancements.skl.title": "СКЛЕИВАНИЕ",
+      "itemGroup.tabtools": "Инструменты Мертвеца \u0026 Броня",
+      "item.horrormod.ochisennyi_12_sword": "Ochisennyi12 Sword",
+      "block.horrormod.soedinitel": "Soedinitel",
+      "advancements.skl.descr": "Склейте части кольца",
+      "block.horrormod.death_wood_button": "DeathWOOD Button",
+      "item.horrormod.ochisennyi_12_hoe": "Ochisennyi12 Hoe",
+      "item.horrormod.dimprokl": "DIMPROKL Portal Igniter",
+      "item.horrormod.svyatbone": "Святая кость",
+      "block.horrormod.death_wood_slab": "DeathWOOD Slab",
+      "advancements.install_mod.descr": "Спасибо что скачали мой мод \u003d)",
+      "block.horrormod.death_dust_block": "Block of Death_Dust",
+      "item.horrormod.flying_mob_spawn_egg": "Flying Mob Spawn Egg",
+      "subtitles.russia": "",
+      "item.horrormod.svyataya_voda_bucket": "Ведро со святой водой",
+      "advancements.exp_20.title": "Exp 2 0",
+      "item.horrormod.ochisennyi_sword": "Ochisennyi Sword",
+      "advancements.neydacha.title": "Neydacha",
+      "item.horrormod.proklytaya_armor_helmet": "Проклятый шлем",
+      "block.horrormod.polished_dead_stone": "Polished Dead Stone",
+      "item.horrormod.dead_book_guide": "Dead Book GUIDE",
+      "item.horrormod.ochisennyi_12_pickaxe": "Ochisennyi12 Pickaxe",
+      "item.horrormod.proklytii_hoe": "Proklytii Hoe",
+      "advancements.fint_to_key_exit.title": "Ключ найден!",
+      "item.horrormod.keysfor_opencraftguiexitblock": "Keysfor OPENCRAFTGUIEXITBLOCK",
+      "advancements.leavethe_p_rdim.title": "Leavethe P Rdim",
+      "advancements.realnost.descr": "Выберитесь в реальный мир",
+      "biome.horrormod.death": "Мир Смертных",
+      "item.horrormod.death_dim": "Ключ мертвеца",
+      "item.horrormod.death_dust_hoe": "Death_Dust Hoe",
+      "item.horrormod.proklytii_axe": "Proklytii Axe",
+      "item.horrormod.key": "Ключ",
+      "item.horrormod.ochisennyi_axe": "Ochisennyi Axe",
+      "item.horrormod.death_dust_pickaxe": "Death_Dust Pickaxe",
+      "biome.horrormod.dead_woods_biome": "Мёртвый древесный биом",
+      "item.horrormod.pilnyi_poroshok": "Проклятый порошок",
+      "item.horrormod.death_dust_dust": "Death_Dust",
+      "entity.horrormod.flying_mob": "Flying Mob",
+      "block.horrormod.dead_bricks_wall": "Dead Bricks Wall",
+      "fluid.horrormod.svyataya_voda": "Святая вода",
+      "item.horrormod.partsword": "Partsword",
+      "advancements.proklytie.descr": "Попадите в Проклятый мир (Мир Проклятых)",
+      "block.horrormod.osvoboditel": "Освободитель",
+      "block.horrormod.ochistitel": "Ochistitel",
+      "block.horrormod.death_wood_planks": "DeathWOOD Planks",
+      "block.horrormod.death_wood_log": "DeathWOOD Log",
+      "item.horrormod.ochisennyi_pickaxe": "Ochisennyi Pickaxe",
+      "item.horrormod.proklytaya_armor_leggings": "Проклятые поножи",
+      "block.horrormod.key_3": "KEY 3",
+      "block.horrormod.key_4": "KEY 4",
+      "entity.horrormod.dead_skelet": "Dead Skelet",
+      "block.horrormod.key_5": "KEY 5",
+      "item.horrormod.partpickaxe": "Partpickaxe",
+      "advancements.give_rasd.descr": "Найдите Разделитель",
+      "itemGroup.tabdead_mod": "Мёртвые Блоки",
+      "block.horrormod.key_2": "KEY 2",
+      "item.horrormod.partshovel": "Partshovel",
+      "item.horrormod.dead_skelet_spawn_egg": "Dead Skelet Spawn Egg",
+      "block.horrormod.dead_stairs_bricks": "Dead Stairs Bricks",
+      "advancements.give_ach_skl.descr": "Получите Склеиватель",
+      "item.horrormod.proklytii_sword": "Проклятый меч",
+      "fluid.horrormod.zidkaya_smert": "Святая вода",
+      "advancements.install_mod.title": "Install Mod",
+      "item.horrormod.death_dust_shovel": "Death_Dust Shovel",
+      "block.horrormod.rasdelitel": "Rasdelitel",
+      "advancements.leavethe_p_rdim.descr": "Выберитесь из Проклятого Мира",
+      "advancements.realnost.title": "Realnost",
+      "item.horrormod.death_dust_armor_helmet": "Death_Dust Helmet",
+      "item.horrormod.proklytii_metall_ingot": "ProklytiiMetall",
+      "advancements.give_pick_up_to_svyat_water.descr": "Наберите святой воды",
+      "item.horrormod.death_dust_armor_boots": "Death_Dust Boots",
+      "biome.horrormod.stranniibiome": "STRANNIIBIOME",
+      "item.horrormod.zidkaya_smert_bucket": "Ведро с жидкой смертью",
+      "item.horrormod.ochisennyi_svyatoi_slitok_ingot": "OchisennyiSvyatoiSlitok",
+      "block.horrormod.death_cobble": "Death Cobble",
+      "itemGroup.tabitems": "Предметы Мертвеца",
+      "biome.horrormod.dimbiome_1": "DIMBIOME 1",
+      "block.horrormod.death_dust_ore": "Death_Dust Ore",
+      "block.horrormod.deathstone": "Deathstone",
+      "item.horrormod.ochisennyi_hoe": "Ochisennyi Hoe",
+      "item.horrormod.partaxe": "Partaxe",
+      "subtitles.ambientdead": "",
+      "block.horrormod.exit": "Выход c ключом",
+      "item.horrormod.death_dust_sword": "Death_Dust Sword",
+      "block.horrormod.death_wood_leaves": "DeathWOOD Leaves",
+      "subtitles.opendeadbook": "",
+      "advancements.nedostatok.descr": "Не хватило опыта чтобы выбраться",
+      "advancements.give_soed.title": "Give Soed",
+      "item.horrormod.proklytaya_armor_boots": "Проклятый сапоги",
+      "block.horrormod.death_wood_pressure_plate": "DeathWOOD Pressure Plate",
+      "block.horrormod.dead_stone_brick_polished_slab": "Dead Stone Brick Polished Slab",
+      "advancements.welcome_to_mm.descr": "Этот игрок был заточён в мире Мёртвых на время",
+      "item.horrormod.parthoe": "Parthoe",
+      "advancements.give_ach_skl.title": "Получить Склеиватель",
+      "item.horrormod.ochisennyi_armor_helmet": "Ochisennyi Helmet",
+      "advancements.fint_to_exit.descr": "Найти выход",
+      "item.horrormod.ochisennyi_armor_boots": "Ochisennyi Boots",
+      "block.horrormod.death_wood_fence": "DeathWOOD Fence",
+      "block.horrormod.deathblock": "Deathblock",
+      "block.horrormod.cracked_dead_stone_bricks": "Cracked Dead Stone Bricks",
+      "block.horrormod.proklytii_metall_block": "Block of ProklytiiMetall",
+      "block.horrormod.exitblockwith_key_1": "KEY 1"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "StoneCutterRecipes",
+        "children": []
+      },
+      {
+        "name": "NotEnterProcedures",
+        "children": []
+      },
+      {
+        "name": "FurnAndBlastRecipesDeadStone",
+        "children": []
+      },
+      {
+        "name": "AutoKeepInventory",
+        "children": []
+      },
+      {
+        "name": "Dark_Recipes",
+        "children": []
+      },
+      {
+        "name": "NewDIM",
+        "children": [
+          {
+            "name": "achivki",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "exitblockanimation",
+        "children": []
+      },
+      {
+        "name": "achivments",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Tools_and_Armors_And_Items",
+        "children": []
+      },
+      {
+        "name": "mobs",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": [
+          {
+            "name": "stone_blocks",
+            "children": []
+          },
+          {
+            "name": "wood_blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "crafts",
+        "children": []
+      },
+      {
+        "name": "guis",
+        "children": []
+      },
+      {
+        "name": "particles",
+        "children": []
+      },
+      {
+        "name": "ochistitel",
+        "children": []
+      },
+      {
+        "name": "fortexturestoolsochist",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "horrormod",
+    "modName": "Horror-mod",
+    "version": "1.0.0",
+    "author": "Denis17, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.horrormod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

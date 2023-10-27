@@ -1,0 +1,433 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Крафт Брони Мертвеца",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Крафт Брони Мертвеца",
+          "x": 163,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bookbackground.png",
+          "use1Xscale": false,
+          "name": "bookbackground.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craftgui.png",
+          "use1Xscale": true,
+          "name": "craftgui.png",
+          "x": 177,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowforcg.png",
+          "use1Xscale": true,
+          "name": "arrowforcg.png",
+          "x": 213,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 187,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 178,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 196,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 178,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 196,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_head.png",
+          "use1Xscale": false,
+          "name": "death_dust_head.png",
+          "x": 230,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craftgui.png",
+          "use1Xscale": true,
+          "name": "craftgui.png",
+          "x": 177,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craftgui.png",
+          "use1Xscale": true,
+          "name": "craftgui.png",
+          "x": 177,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craftgui.png",
+          "use1Xscale": true,
+          "name": "craftgui.png",
+          "x": 177,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowforcg.png",
+          "use1Xscale": true,
+          "name": "arrowforcg.png",
+          "x": 213,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowforcg.png",
+          "use1Xscale": true,
+          "name": "arrowforcg.png",
+          "x": 213,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowforcg.png",
+          "use1Xscale": true,
+          "name": "arrowforcg.png",
+          "x": 213,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "OPENBOOKS"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 137,
+          "y": 198
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_body.png",
+          "use1Xscale": false,
+          "name": "death_dust_body.png",
+          "x": 230,
+          "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 178,
+          "y": 99
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 196,
+          "y": 99
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_dust.png",
+          "use1Xscale": true,
+          "name": "death_dust_dust.png",
+          "x": 187,
+          "y": 108
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 178,
+          "y": 108
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 196,
+          "y": 108
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 178,
+          "y": 117
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 187,
+          "y": 117
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 196,
+          "y": 117
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_leggings.png",
+          "use1Xscale": false,
+          "name": "death_dust_leggings.png",
+          "x": 230,
+          "y": 140
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 178,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 196,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 178,
+          "y": 144
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 187,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 196,
+          "y": 144
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 178,
+          "y": 153
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 196,
+          "y": 153
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_boots.png",
+          "use1Xscale": false,
+          "name": "death_dust_boots.png",
+          "x": 230,
+          "y": 176
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 178,
+          "y": 180
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bone.png",
+          "use1Xscale": true,
+          "name": "bone.png",
+          "x": 196,
+          "y": 180
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 178,
+          "y": 189
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_ingot.png",
+          "use1Xscale": true,
+          "name": "iron_ingot.png",
+          "x": 196,
+          "y": 189
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "OpenArINFO"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 259,
+          "y": 198
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "horrormod:death_dust_block"
+    }
+  ],
+  "result": {
+    "item": "horrormod:dead_ingot",
+    "count": 9
+  }
+}

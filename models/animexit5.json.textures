@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "exit",
+        "4": "texturekeyee"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:deathwood_log"
+    }
+  ],
+  "result": {
+    "item": "horrormod:death_wood_planks",
+    "count": 4
+  }
+}

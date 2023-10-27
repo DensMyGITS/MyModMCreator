@@ -1,0 +1,7 @@
+{
+  "parent": "horrormod:custom/keynew",
+  "textures": {
+    "0": "horrormod:blocks/keynewtexture",
+    "particle": "horrormod:items/keyforcrafting"
+  }
+}

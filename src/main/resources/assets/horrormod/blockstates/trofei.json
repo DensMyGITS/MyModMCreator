@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "horrormod:block/trofei"
+    },
+    "facing=east": {
+      "model": "horrormod:block/trofei",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "horrormod:block/trofei",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "horrormod:block/trofei",
+      "y": 270
+    }
+  }
+}

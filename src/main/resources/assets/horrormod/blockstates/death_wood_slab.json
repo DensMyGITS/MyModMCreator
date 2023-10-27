@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horrormod:block/death_wood_slab"
+    },
+    "type=top": {
+      "model": "horrormod:block/death_wood_slab_top"
+    },
+    "type=double": {
+      "model": "horrormod:block/death_wood_slab_full"
+    }
+  }
+}

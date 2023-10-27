@@ -1,0 +1,8 @@
+{
+  "parent": "horrormod:custom/trofeizapobeg222",
+  "textures": {
+    "all": "horrormod:blocks/trof2",
+    "particle": "horrormod:blocks/trof2",
+    "1": "horrormod:blocks/trof2"
+  }
+}

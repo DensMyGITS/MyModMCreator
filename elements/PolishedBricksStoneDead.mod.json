@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 9,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Deathstone"
+      },
+      {
+        "value": "CUSTOM:Deathstone"
+      },
+      {
+        "value": "CUSTOM:Deathstone"
+      },
+      {
+        "value": "CUSTOM:Deathstone"
+      },
+      {
+        "value": "CUSTOM:Deathstone"
+      },
+      {
+        "value": "CUSTOM:Deathstone"
+      },
+      {
+        "value": "CUSTOM:Deathstone"
+      },
+      {
+        "value": "CUSTOM:Deathstone"
+      },
+      {
+        "value": "CUSTOM:Deathstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedDeadStone"
+    },
+    "name": "polished_bricks_stone_dead",
+    "namespace": "mod"
+  }
+}

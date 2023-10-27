@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "horrormod:death_stone_bricks"
+  },
+  "result": {
+    "item": "horrormod:cracked_dead_stone_bricks"
+  }
+}

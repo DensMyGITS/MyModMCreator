@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "horrormod:deathstone"
+    },
+    "1": {
+      "item": "horrormod:deathstone"
+    },
+    "2": {
+      "item": "horrormod:deathstone"
+    },
+    "3": {
+      "item": "horrormod:deathstone"
+    },
+    "4": {
+      "item": "horrormod:deathstone"
+    },
+    "5": {
+      "item": "horrormod:deathstone"
+    },
+    "6": {
+      "item": "horrormod:deathstone"
+    },
+    "7": {
+      "item": "horrormod:deathstone"
+    },
+    "8": {
+      "item": "horrormod:deathstone"
+    }
+  },
+  "result": {
+    "item": "horrormod:polished_dead_stone",
+    "count": 9
+  }
+}

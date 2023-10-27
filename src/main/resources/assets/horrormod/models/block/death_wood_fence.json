@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "horrormod:blocks/deathwood_planks",
+    "particle": "horrormod:blocks/deathwood_planks"
+  }
+}

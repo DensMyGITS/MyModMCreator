@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lychsv",
+        "2": "black_shulker_box",
+        "4": "anvil"
+      },
+      "name": "default"
+    }
+  }
+}

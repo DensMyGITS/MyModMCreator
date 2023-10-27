@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "horrormod:blocks/stone_bricks",
+    "particle": "horrormod:blocks/stone_bricks"
+  }
+}

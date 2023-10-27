@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "horrormod:block/dead_stone_bricks_slab"
+    },
+    "type=top": {
+      "model": "horrormod:block/dead_stone_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "horrormod:block/dead_stone_bricks_slab_full"
+    }
+  }
+}

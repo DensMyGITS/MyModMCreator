@@ -1,0 +1,21 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:Deathblock"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:Deathblock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}

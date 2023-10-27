@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "horrormod:exit"
+    },
+    "title": {
+      "translate": "advancements.fint_to_exit.title"
+    },
+    "description": {
+      "translate": "advancements.fint_to_exit.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "fint_to_exit": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "horrormod:exitblockwith_key_1"
+        }
+      }
+    }
+  },
+  "parent": "horrormod:fint_to_key_exit"
+}

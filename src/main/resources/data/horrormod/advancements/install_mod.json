@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "horrormod:textures/screens/fon_ach.png",
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.install_mod.title"
+    },
+    "description": {
+      "translate": "advancements.install_mod.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "install_mod": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

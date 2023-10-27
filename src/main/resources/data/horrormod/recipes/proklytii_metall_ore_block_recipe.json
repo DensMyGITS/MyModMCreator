@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "horrormod:proklytii_metall_ingot"
+    },
+    "1": {
+      "item": "horrormod:proklytii_metall_ingot"
+    },
+    "2": {
+      "item": "horrormod:proklytii_metall_ingot"
+    },
+    "3": {
+      "item": "horrormod:proklytii_metall_ingot"
+    },
+    "4": {
+      "item": "horrormod:proklytii_metall_ingot"
+    },
+    "5": {
+      "item": "horrormod:proklytii_metall_ingot"
+    },
+    "6": {
+      "item": "horrormod:proklytii_metall_ingot"
+    },
+    "7": {
+      "item": "horrormod:proklytii_metall_ingot"
+    },
+    "8": {
+      "item": "horrormod:proklytii_metall_ingot"
+    }
+  },
+  "result": {
+    "item": "horrormod:proklytii_metall_block",
+    "count": 1
+  }
+}

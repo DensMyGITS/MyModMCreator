@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blue_wool",
+        "1": "cyan_terracotta",
+        "2": "light_blue_wool",
+        "3": "light_gray_concrete",
+        "4": "beacon"
+      },
+      "name": "default"
+    }
+  }
+}

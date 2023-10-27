@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "horrormod:pilnyi_poroshok"
+    },
+    "1": {
+      "item": "horrormod:pilnyi_poroshok"
+    },
+    "2": {
+      "item": "horrormod:pilnyi_poroshok"
+    },
+    "3": {
+      "item": "horrormod:pilnyi_poroshok"
+    }
+  },
+  "result": {
+    "item": "horrormod:death_dust_dust",
+    "count": 1
+  }
+}

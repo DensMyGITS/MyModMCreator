@@ -1,0 +1,239 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookbackground.png",
+          "use1Xscale": false,
+          "name": "bookbackground.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowforcg.png",
+          "use1Xscale": true,
+          "name": "arrowforcg.png",
+          "x": 254,
+          "y": 185
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "OpenPage3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 264,
+          "y": 199
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Но не тут-то было!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Но не тут-то было!",
+          "x": 159,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ты не сможешь убить",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ты не сможешь убить",
+          "x": 158,
+          "y": 60
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "дракона.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "дракона.",
+          "x": 159,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Да ДАЖЕ больше! ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Да ДАЖЕ больше! ",
+          "x": 158,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ты попросту не зайдёшь",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ты попросту не зайдёшь",
+          "x": 157,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "в портал Энда.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "в портал Энда.",
+          "x": 158,
+          "y": 104
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Тебя просто выкинет.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Тебя просто выкинет.",
+          "x": 158,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Чтобы выбраться отсюда",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Чтобы выбраться отсюда",
+          "x": 156,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ладно, пока не об этом",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ладно, пока не об этом",
+          "x": 156,
+          "y": 126
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "=====Крч=====",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "=====Крч=====",
+          "x": 178,
+          "y": 148
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Узнаешь скоро всё сам.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Узнаешь скоро всё сам.",
+          "x": 156,
+          "y": 137
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Тебе нужно найти два",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Тебе нужно найти два",
+          "x": 156,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "данжа...",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "данжа...",
+          "x": 156,
+          "y": 181
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "OpenINFODEADDIM"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 136,
+          "y": 199
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

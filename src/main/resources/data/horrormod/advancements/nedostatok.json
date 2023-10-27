@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "nedostatok": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "horrormod:leavethe_deaddim"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "horrormod:blocks/miortvyi_log_side",
+    "up": "horrormod:blocks/crafting_table_top",
+    "north": "horrormod:blocks/miortvyi_log_side",
+    "east": "horrormod:blocks/miortvyi_log_side",
+    "south": "horrormod:blocks/miortvyi_log_side",
+    "west": "horrormod:blocks/miortvyi_log_side",
+    "particle": "horrormod:blocks/miortvyi_log_side"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "death_dust_head",
+    "enableBody": true,
+    "textureBody": "death_dust_body",
+    "enableLeggings": true,
+    "textureLeggings": "death_dust_leggings",
+    "enableBoots": true,
+    "textureBoots": "death_dust_boots",
+    "onHelmetTick": {
+      "name": "DeathDustArmorSobytiieTaktovShliema"
+    },
+    "onBodyTick": {
+      "name": "DeathDustArmorSobytiieTaktovKirasy"
+    },
+    "onBootsTick": {
+      "name": "DeathDustArmorSobytiieTaktovBotinkov"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Tools"
+    },
+    "armorTextureFile": "death_dust",
+    "helmetName": "Death_Dust Helmet",
+    "bodyName": "Death_Dust Chestplate",
+    "leggingsName": "Death_Dust Leggings",
+    "bootsName": "Death_Dust Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 45,
+    "damageValueHelmet": 6,
+    "damageValueBody": 15,
+    "damageValueLeggings": 18,
+    "damageValueBoots": 6,
+    "enchantability": 27,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:DeadIngot"
+      }
+    ]
+  }
+}

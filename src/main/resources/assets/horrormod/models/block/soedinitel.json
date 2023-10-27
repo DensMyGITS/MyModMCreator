@@ -1,0 +1,12 @@
+{
+  "parent": "horrormod:custom/soedinitel",
+  "textures": {
+    "all": "horrormod:blocks/obsidian",
+    "particle": "horrormod:blocks/obsidian",
+    "0": "horrormod:blocks/diamond_block",
+    "1": "horrormod:blocks/black_shulker_rasd",
+    "2": "horrormod:blocks/obsidian",
+    "4": "horrormod:blocks/cyan_shulker_box",
+    "5": "horrormod:blocks/soed-effect"
+  }
+}

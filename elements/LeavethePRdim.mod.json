@@ -1,0 +1,25 @@
+{
+  "_fv": 33,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Leavethe P Rdim",
+    "achievementDescription": "Выберитесь из Проклятого Мира",
+    "achievementIcon": {
+      "value": "CUSTOM:Osvoboditel"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Exp20"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_left\" x=\"45\" y=\"55\"><field name=\"dimension\">CUSTOM:DIMPROKL</field><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

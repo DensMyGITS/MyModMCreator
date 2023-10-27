@@ -1,0 +1,74 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ochisennyi_head",
+    "enableBody": true,
+    "textureBody": "ochisennyi_body",
+    "enableLeggings": true,
+    "textureLeggings": "ochisennyi_leggings",
+    "enableBoots": true,
+    "textureBoots": "ochisennyi_boots",
+    "onHelmetTick": {
+      "name": "OchisennyiArmorSobytiieTaktovShliema"
+    },
+    "onBodyTick": {
+      "name": "OchisennyiArmorSobytiieTaktovKirasy"
+    },
+    "onLeggingsTick": {
+      "name": "OchisennyiArmorSobytiieTaktovPonozhiei"
+    },
+    "onBootsTick": {
+      "name": "OchisennyiArmorSobytiieTaktovBotinkov"
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "armorTextureFile": "ochisennyi",
+    "helmetName": "Ochisennyi Helmet",
+    "bodyName": "Ochisennyi Chestplate",
+    "leggingsName": "Ochisennyi Leggings",
+    "bootsName": "Ochisennyi Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 75,
+    "damageValueHelmet": 10,
+    "damageValueBody": 25,
+    "damageValueLeggings": 30,
+    "damageValueBoots": 10,
+    "enchantability": 45,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:OchisennyiSvyatoiSlitokIngot"
+      }
+    ]
+  }
+}

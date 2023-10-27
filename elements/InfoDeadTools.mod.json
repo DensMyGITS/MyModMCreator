@@ -1,0 +1,263 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Инструменты мертвеца",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Инструменты мертвеца",
+          "x": 163,
+          "y": 49
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bookbackground.png",
+          "use1Xscale": false,
+          "name": "bookbackground.png",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Есть 5 типов инстр-в:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Есть 5 типов инстр-в:",
+          "x": 158,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Меч Мертвеца",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Меч Мертвеца",
+          "x": 169,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_sword.png",
+          "use1Xscale": true,
+          "name": "death_dust_sword.png",
+          "x": 158,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Топор Мертвеца",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Топор Мертвеца",
+          "x": 169,
+          "y": 85
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_axe.png",
+          "use1Xscale": true,
+          "name": "death_dust_axe.png",
+          "x": 158,
+          "y": 86
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Кирка Мертвеца",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Кирка Мертвеца",
+          "x": 169,
+          "y": 95
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Мотыга Мертвеца",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Мотыга Мертвеца",
+          "x": 169,
+          "y": 105
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Лопата Мертвеца",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Лопата Мертвеца",
+          "x": 169,
+          "y": 114
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_pickaxe.png",
+          "use1Xscale": true,
+          "name": "death_dust_pickaxe.png",
+          "x": 158,
+          "y": 96
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_hoe.png",
+          "use1Xscale": true,
+          "name": "death_dust_hoe.png",
+          "x": 158,
+          "y": 106
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "death_dust_shovel.png",
+          "use1Xscale": true,
+          "name": "death_dust_shovel.png",
+          "x": 158,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Только один предмет",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Только один предмет",
+          "x": 158,
+          "y": 127
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "имеет способность",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "имеет способность",
+          "x": 157,
+          "y": 137
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Это Меч мертвеца -",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Это Меч мертвеца -",
+          "x": 157,
+          "y": 149
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "При нажатии ПКМ выпускает",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "При нажатии ПКМ выпускает",
+          "x": 156,
+          "y": 159
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Череп Визер-Скелета",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Череп Визер-Скелета",
+          "x": 157,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "OPENBOOKS"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 141,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 258,
+          "y": 197
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

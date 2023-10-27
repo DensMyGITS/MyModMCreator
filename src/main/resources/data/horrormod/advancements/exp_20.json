@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "exp_20": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "horrormod:proklytie"
+}

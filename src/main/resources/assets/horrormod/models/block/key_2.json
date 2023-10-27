@@ -1,0 +1,9 @@
+{
+  "parent": "horrormod:custom/animexit2",
+  "textures": {
+    "all": "horrormod:blocks/exit",
+    "particle": "horrormod:blocks/exit",
+    "3": "horrormod:blocks/exit",
+    "4": "horrormod:blocks/texturekeyee"
+  }
+}

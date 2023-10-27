@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "horrormod:death_stone_bricks"
+  },
+  "result": "horrormod:dead_bricks_wall"
+}

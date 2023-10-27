@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lychsv",
+        "4": "anvil"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 3.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "horrormod:proklytii_metall_ore"
+  },
+  "result": {
+    "item": "horrormod:proklytii_metall_ingot"
+  }
+}
